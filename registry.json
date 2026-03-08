@@ -1,0 +1,154 @@
+[
+  {
+    "name": "RandomForest",
+    "path": "/home/claude/ml_industrial/artifacts/models/RandomForest_20260307_190538.joblib",
+    "timestamp": "20260307_190538",
+    "metrics": {
+      "accuracy": 0.9666666666666667,
+      "f1_weighted": 0.9665831244778613,
+      "precision": 0.9696969696969696,
+      "recall": 0.9666666666666667,
+      "mcc": 0.9515873026942034,
+      "kappa": 0.95,
+      "log_loss": 0.1239527563016758,
+      "roc_auc_ovr": 0.9966666666666666,
+      "acc_ci_lo": 0.9,
+      "acc_ci_hi": 1.0
+    },
+    "params": {
+      "max_depth": 10,
+      "max_features": "log2",
+      "min_samples_leaf": 1,
+      "min_samples_split": 4,
+      "n_estimators": 121
+    },
+    "tags": {}
+  },
+  {
+    "name": "GradientBoosting",
+    "path": "/home/claude/ml_industrial/artifacts/models/GradientBoosting_20260307_190538.joblib",
+    "timestamp": "20260307_190538",
+    "metrics": {
+      "accuracy": 0.9333333333333333,
+      "f1_weighted": 0.9326599326599326,
+      "precision": 0.9444444444444445,
+      "recall": 0.9333333333333333,
+      "mcc": 0.9060606745389328,
+      "kappa": 0.9,
+      "log_loss": 0.22543385372970529,
+      "roc_auc_ovr": 0.9716666666666666,
+      "acc_ci_lo": 0.8333333333333334,
+      "acc_ci_hi": 1.0
+    },
+    "params": {
+      "learning_rate": 0.03574712922600244,
+      "max_depth": 2,
+      "n_estimators": 64,
+      "subsample": 0.892797576724562
+    },
+    "tags": {}
+  },
+  {
+    "name": "SVM",
+    "path": "/home/claude/ml_industrial/artifacts/models/SVM_20260307_190539.joblib",
+    "timestamp": "20260307_190539",
+    "metrics": {
+      "accuracy": 0.9333333333333333,
+      "f1_weighted": 0.9333333333333333,
+      "precision": 0.9333333333333333,
+      "recall": 0.9333333333333333,
+      "mcc": 0.9,
+      "kappa": 0.9,
+      "log_loss": 0.19129281350250782,
+      "roc_auc_ovr": 0.9933333333333333,
+      "acc_ci_lo": 0.8333333333333334,
+      "acc_ci_hi": 1.0
+    },
+    "params": {
+      "estimator__C": 9.45430681953617,
+      "estimator__gamma": 0.024810409748678097,
+      "estimator__kernel": "rbf"
+    },
+    "tags": {}
+  },
+  {
+    "name": "LogisticRegression",
+    "path": "/home/claude/ml_industrial/artifacts/models/LogisticRegression_20260307_190539.joblib",
+    "timestamp": "20260307_190539",
+    "metrics": {
+      "accuracy": 0.9333333333333333,
+      "f1_weighted": 0.9333333333333333,
+      "precision": 0.9333333333333333,
+      "recall": 0.9333333333333333,
+      "mcc": 0.9,
+      "kappa": 0.9,
+      "log_loss": 0.1542294639492127,
+      "roc_auc_ovr": 0.9966666666666666,
+      "acc_ci_lo": 0.8333333333333334,
+      "acc_ci_hi": 1.0
+    },
+    "params": {
+      "C": 2.481040974867813,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    },
+    "tags": {}
+  },
+  {
+    "name": "DeepNeuralNet",
+    "path": "/home/claude/ml_industrial/artifacts/models/DeepNeuralNet_20260307_190539.joblib",
+    "timestamp": "20260307_190539",
+    "metrics": {
+      "accuracy": 0.9333333333333333,
+      "f1_weighted": 0.9326599326599326,
+      "precision": 0.9444444444444445,
+      "recall": 0.9333333333333333,
+      "mcc": 0.9060606745389328,
+      "kappa": 0.9,
+      "log_loss": 0.26620372302075807,
+      "roc_auc_ovr": 0.9849999999999999,
+      "acc_ci_lo": 0.8333333333333334,
+      "acc_ci_hi": 1.0
+    },
+    "params": {},
+    "tags": {}
+  },
+  {
+    "name": "StackingEnsemble",
+    "path": "/home/claude/ml_industrial/artifacts/models/StackingEnsemble_20260307_190539.joblib",
+    "timestamp": "20260307_190539",
+    "metrics": {
+      "accuracy": 0.9666666666666667,
+      "f1_weighted": 0.9665831244778613,
+      "precision": 0.9696969696969696,
+      "recall": 0.9666666666666667,
+      "mcc": 0.9515873026942034,
+      "kappa": 0.95,
+      "log_loss": 0.15178547041366264,
+      "roc_auc_ovr": 0.9966666666666666,
+      "acc_ci_lo": 0.9,
+      "acc_ci_hi": 1.0
+    },
+    "params": {},
+    "tags": {}
+  },
+  {
+    "name": "SoftVotingEnsemble",
+    "path": "/home/claude/ml_industrial/artifacts/models/SoftVotingEnsemble_20260307_190540.joblib",
+    "timestamp": "20260307_190540",
+    "metrics": {
+      "accuracy": 0.9666666666666667,
+      "f1_weighted": 0.9665831244778613,
+      "precision": 0.9696969696969696,
+      "recall": 0.9666666666666667,
+      "mcc": 0.9515873026942034,
+      "kappa": 0.95,
+      "log_loss": 0.14358535823513818,
+      "roc_auc_ovr": 0.9966666666666666,
+      "acc_ci_lo": 0.9,
+      "acc_ci_hi": 1.0
+    },
+    "params": {},
+    "tags": {}
+  }
+]

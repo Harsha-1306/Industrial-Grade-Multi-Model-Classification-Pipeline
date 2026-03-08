@@ -1,0 +1,5 @@
+2026-03-07 19:01:29 | INFO     | DataPipeline | Loading Iris dataset …
+2026-03-07 19:01:29 | INFO     | DataPipeline | Raw shape: (150, 4)  |  Classes: ['setosa', 'versicolor', 'virginica']
+2026-03-07 19:01:29 | INFO     | DataPipeline | After feature engineering: 9 features
+2026-03-07 19:01:29 | INFO     | DataPipeline | After SMOTE oversampling: 99 train samples
+2026-03-07 19:01:29 | INFO     | DataPipeline | Data pipeline complete.

@@ -1,0 +1,36 @@
+2026-03-07 19:05:05 | INFO     | Main | ======================================================================
+2026-03-07 19:05:05 | INFO     | Main |   INDUSTRIAL ML PIPELINE  |  scikit-learn + NumPy Neural Net
+2026-03-07 19:05:05 | INFO     | Main |   Experiment: iris_industrial_v1
+2026-03-07 19:05:05 | INFO     | Main | ======================================================================
+2026-03-07 19:05:05 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:05 | INFO     | Main |   STAGE 1 — Data Ingestion & Feature Engineering
+2026-03-07 19:05:05 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:05 | INFO     | Main | Train: (99, 9)  Val: (23, 9)  Test: (30, 9)
+2026-03-07 19:05:05 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:05 | INFO     | Main |   STAGE 2 — Hyperparameter Optimisation (RandomizedSearchCV)
+2026-03-07 19:05:05 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:35 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:35 | INFO     | Main |   STAGE 3 — Custom Deep Neural Network (NumPy backend)
+2026-03-07 19:05:35 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:35 | INFO     | Main | [NeuralNet] Test Accuracy = 0.9333
+2026-03-07 19:05:35 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:35 | INFO     | Main |   STAGE 4 — Ensemble (Stacking + Soft-Voting)
+2026-03-07 19:05:35 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:38 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:38 | INFO     | Main |   STAGE 5 — Comprehensive Evaluation
+2026-03-07 19:05:38 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:40 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:40 | INFO     | Main |   STAGE 6 — Explainability Analysis
+2026-03-07 19:05:40 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:40 | INFO     | Main | Running explainability on best model: RandomForest
+2026-03-07 19:05:47 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:47 | INFO     | Main |   STAGE 7 — Generating Visualisation Dashboards
+2026-03-07 19:05:47 | INFO     | Main | ──────────────────────────────────────────────────────────────────────
+2026-03-07 19:05:49 | INFO     | Main | Dashboard 1 saved → /home/claude/ml_industrial/artifacts/plots/01_data_dashboard.png
+2026-03-07 19:05:50 | INFO     | Main | Dashboard 2 saved → /home/claude/ml_industrial/artifacts/plots/02_model_comparison.png
+2026-03-07 19:05:51 | INFO     | Main | Dashboard 3 saved → /home/claude/ml_industrial/artifacts/plots/03_explainability.png
+2026-03-07 19:05:53 | INFO     | Main | Dashboard 4 saved → /home/claude/ml_industrial/artifacts/plots/04_neural_network.png
+2026-03-07 19:05:53 | INFO     | Main | ======================================================================
+2026-03-07 19:05:53 | INFO     | Main |   PIPELINE COMPLETE  |  Total time: 47.7s
+2026-03-07 19:05:53 | INFO     | Main |   Best model: RandomForest  acc=0.9667  f1=0.9666  mcc=0.9516
+2026-03-07 19:05:53 | INFO     | Main | ======================================================================
